@@ -27,7 +27,7 @@ BlinkyTape.build.usb_product="BlinkyTape"
 BlinkyTape.build.usb_manufacturer="Blinkinlabs"
 BlinkyTape.build.board=AVR_BLINKYTAPE
 BlinkyTape.build.core=arduino
-BlinkyTape.build.variant=leonardo
+BlinkyTape.build.variant=BlinkyTape
 BlinkyTape.build.extra_flags={build.usb_flags}
 
 BlinkyTape.build.vid.0=0x1D50
