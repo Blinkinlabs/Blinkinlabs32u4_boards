@@ -5,5 +5,7 @@
 *.map
 *.o
 *.sym
-/bootloaders/caterina/.dep/
-/bootloaders/caterina/LUFA-111009/
+*.swp
+avr/bootloaders/caterina/.dep/*
+avr/bootloaders/caterina/LUFA-111009/*
+*.DS_Store

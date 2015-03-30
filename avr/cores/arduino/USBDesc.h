@@ -17,7 +17,7 @@
 */
 
 #define CDC_ENABLED
-#define HID_ENABLED
+//#define HID_ENABLED  // Disable HID to save 1k!
 
 
 #ifdef CDC_ENABLED
