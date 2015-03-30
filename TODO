@@ -1,4 +1,0 @@
--Fix LED defines for USB-DMX, Analog LED Fader, Blinkytape
-x-Add device function hex files for board programming
--Test .inf files on windows
--Get real PIDs for USBDMX
