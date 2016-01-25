@@ -15,7 +15,7 @@ BlinkyTape.upload.tool=arduino:avrdude
 BlinkyTape.bootloader.low_fuses=0xff
 BlinkyTape.bootloader.high_fuses=0xd8
 BlinkyTape.bootloader.extended_fuses=0xcb
-BlinkyTape.bootloader.file=Caterina-BlinkyTape.hex
+BlinkyTape.bootloader.file=caterina/Caterina-BlinkyTape.hex
 BlinkyTape.bootloader.unlock_bits=0x3F
 BlinkyTape.bootloader.lock_bits=0x2F
 
