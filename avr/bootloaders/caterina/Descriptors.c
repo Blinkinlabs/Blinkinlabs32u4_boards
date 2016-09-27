@@ -195,10 +195,6 @@ const USB_Descriptor_String_t ProductString =
 
        #if DEVICE_PID == 0x606C
        .UnicodeString                   = L"BlinkyTape      "
-       #elif DEVICE_PID == 0x605E
-       .UnicodeString                   = L"Analog LED Fader"
-       #elif DEVICE_PID == 0x6666
-       .UnicodeString                   = L"USB DMX         "
        #else
        .UnicodeString                   = L"USB IO board    "
        #endif

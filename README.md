@@ -1,6 +1,4 @@
 This folder contains support for our Aurduino-compatible designs:
-AnalogLEDFader
-UsbDmx
 Blinkytape
 
 To add support for these boards to your Arduino IDE, simply

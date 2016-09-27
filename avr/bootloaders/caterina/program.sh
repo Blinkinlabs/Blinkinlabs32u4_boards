@@ -7,13 +7,7 @@ then
   exit 1
 fi
 
-if [ $1 = 'AnalogLEDFader' ]
-then
-  BOOTLOADER_FILE=Caterina-AnalogLEDFader.hex
-elif [ $1 = 'USBDMX' ]
-then
-  BOOTLOADER_FILE=Caterina-USBDMX.hex
-elif [ $1 = 'BlinkyTape' ]
+if [ $1 = 'BlinkyTape' ]
 then
   BOOTLOADER_FILE=Caterina-BlinkyTape.hex
 else
