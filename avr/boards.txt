@@ -30,7 +30,7 @@ blinkytape.build.pid=0x605E
 blinkytape.build.usb_manufacturer="Blinkinlabs"
 blinkytape.build.usb_product="BlinkyTape"
 blinkytape.build.board=AVR_BLINKYTAPE
-blinkytape.build.core=arduino
+blinkytape.build.core=arduino:arduino
 blinkytape.build.variant=BlinkyTape
 blinkytape.build.extra_flags={build.usb_flags}
 
