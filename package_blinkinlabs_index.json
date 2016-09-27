@@ -1,0 +1,49 @@
+{
+    "packages":
+    [
+        {
+            "name": "Blinkinlabs",
+            "maintainer": "Blinkinlabs, LLC",
+            "websiteURL": "https://www.blinkinlabs.com/",
+            "help":
+            {
+                "online": "https://forums.blinkinlabs.com/"
+            },
+
+            "platforms":
+            [
+                {
+                    "name": "Blinkinlabs AVR boards",
+                    "architecture": "avr",
+                    "version": "1.0.0",
+                    "category": "Contributed",
+                    "help":
+                    {
+                        "online": "https://forums.blinkinlabs.com/"
+                    },
+                    "url": "https://github.com/Blinkinlabs/Blinkinlabs32u4_boards/releases/download/v1.0.0-beta/Blinkinlabs_AVR_1.0.0-beta.zip",
+                    "archiveFileName": "Blinkinlabs_AVR_1.0.0.zip",
+                    "checksum": "SHA-256:a8c20dcd287a61b7c2d1add950dcda7b81a32f4dca99017ea9fd55a080350aff",
+                    "size": "479214",
+                    "boards":
+                    [
+                        {"name": "BlinkyTape"},
+                    ],
+                    "toolsDependencies":
+                    [
+                        {
+                            "packager": "arduino",
+                            "name": "avr-gcc",
+                            "version": "4.8.1-arduino5"
+                        },
+                        {
+                            "packager": "arduino",
+                            "name": "avrdude",
+                            "version": "6.0.1-arduino5"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
