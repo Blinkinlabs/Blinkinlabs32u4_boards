@@ -1,0 +1,9 @@
+[submodule "avr/libraries/blinkytape"]
+	path = avr/libraries/blinkytape
+	url = git@github.com:Blinkinlabs/BlinkyTape_Arduino.git
+	branch = 2.1.0
+
+[submodule "avr/libraries/FastLED"]
+	path = avr/libraries/FastLED
+        url = https://github.com/FastLED/FastLED.git
+	branch = v3.1.3
