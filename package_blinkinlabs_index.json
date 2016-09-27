@@ -27,7 +27,7 @@
                     "size": "479214",
                     "boards":
                     [
-                        {"name": "BlinkyTape"},
+                        {"name": "BlinkyTape"}
                     ],
                     "toolsDependencies":
                     [
