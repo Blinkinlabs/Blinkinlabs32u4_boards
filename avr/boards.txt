@@ -1,39 +1,39 @@
 ##############################################################
 
-BlinkyTape.name=BlinkyTape
+blinkytape.name=BlinkyTape
+blinkytape.vid.0=0x1D50
+blinkytape.pid.0=0x605E
+blinkytape.vid.1=0x1D50
+blinkytape.pid.1=0x6087
 
-BlinkyTape.upload.tool=arduino:avrdude
-BlinkyTape.upload.protocol=avr109
-BlinkyTape.upload.maximum_size=28672
-BlinkyTape.upload.maximum_data_size=2560
-BlinkyTape.upload.speed=57600
-BlinkyTape.upload.disable_flushing=true
-BlinkyTape.upload.use_1200bps_touch=true
-BlinkyTape.upload.wait_for_upload_port=true
+blinkytape.upload.tool=arduino:avrdude
+blinkytape.upload.protocol=avr109
+blinkytape.upload.maximum_size=28672
+blinkytape.upload.maximum_data_size=2560
+blinkytape.upload.speed=57600
+blinkytape.upload.disable_flushing=true
+blinkytape.upload.use_1200bps_touch=true
+blinkytape.upload.wait_for_upload_port=true
 
-BlinkyTape.upload.tool=arduino:avrdude
-BlinkyTape.bootloader.low_fuses=0xff
-BlinkyTape.bootloader.high_fuses=0xd8
-BlinkyTape.bootloader.extended_fuses=0xcb
-BlinkyTape.bootloader.file=caterina/Caterina-BlinkyTape.hex
-BlinkyTape.bootloader.unlock_bits=0x3F
-BlinkyTape.bootloader.lock_bits=0x2F
+blinkytape.upload.tool=arduino:avrdude
+blinkytape.bootloader.low_fuses=0xff
+blinkytape.bootloader.high_fuses=0xd8
+blinkytape.bootloader.extended_fuses=0xcb
+blinkytape.bootloader.file=caterina/Caterina-BlinkyTape.hex
+blinkytape.bootloader.unlock_bits=0x3F
+blinkytape.bootloader.lock_bits=0x2F
 
-BlinkyTape.build.mcu=atmega32u4
-BlinkyTape.build.f_cpu=16000000L
-BlinkyTape.build.vid=0x1D50
-BlinkyTape.build.pid=0x605E
-BlinkyTape.build.usb_product="BlinkyTape"
-BlinkyTape.build.usb_manufacturer="Blinkinlabs"
-BlinkyTape.build.board=AVR_BLINKYTAPE
-BlinkyTape.build.core=arduino
-BlinkyTape.build.variant=BlinkyTape
-BlinkyTape.build.extra_flags={build.usb_flags}
+blinkytape.build.mcu=atmega32u4
+blinkytape.build.f_cpu=16000000L
+blinkytape.build.vid=0x1D50
+blinkytape.build.pid=0x605E
+blinkytape.build.usb_manufacturer="Blinkinlabs"
+blinkytape.build.usb_product="BlinkyTape"
+blinkytape.build.board=AVR_BLINKYTAPE
+blinkytape.build.core=arduino
+blinkytape.build.variant=BlinkyTape
+blinkytape.build.extra_flags={build.usb_flags}
 
-BlinkyTape.build.vid.0=0x1D50
-BlinkyTape.build.pid.0=0x605E
-BlinkyTape.build.vid.1=0x1D50
-BlinkyTape.build.pid.1=0x6087
 
 ##############################################################
 
