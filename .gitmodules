@@ -1,5 +1,5 @@
 [submodule "avr/libraries/blinkytape"]
-	path = avr/libraries/blinkytape
+	path = avr/libraries/BlinkyTapea
 	url = git@github.com:Blinkinlabs/BlinkyTape_Arduino.git
 	branch = 2.1.0
 
