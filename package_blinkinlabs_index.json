@@ -9,6 +9,27 @@
             "online":"https://forums.blinkinlabs.com"
          },
          "platforms":[
+
+            {
+               "name":"Blinkinlabs AVR boards",
+               "architecture":"avr",
+               "version":"1.1.0",
+               "category":"Blinkinlabs",
+               "url":"https://github.com/Blinkinlabs/Blinkinlabs32u4_boards/releases/download/1.1.0/Blinkinlabs_AVR_1.1.0.zip",
+               "archiveFileName": "Blinkinlabs_AVR_1.1.0.zip",
+               "checksum": "SHA-256:c8a3de204e05cc7567da09fdcc953014ec45af53911d7a26f17d6b830a6d9fcd",
+               "size": "181637",
+               "help":{
+                  "online":"https://forums.blinkinlabs.com"
+               },
+               "boards":[
+                  {
+                     "name":"BlinkyTape"
+                  }
+               ],
+               "toolsDependencies":[]
+            },
+
             {
                "name":"Blinkinlabs AVR boards",
                "architecture":"avr",
