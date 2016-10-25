@@ -1,6 +1,11 @@
 #!/bin/sh
 
-VERSION="1.0.0"
+VERSION="0.1.0"
+GIT_COMMAND="git -C ${PWD}"
+GIT_VERSION=`${GIT_COMMAND} describe --always --tags 2> /dev/null`
+VERSION=`echo ${GIT_VERSION} | sed 's/-/\./g' | sed 's/g//g'`
+
+echo "Version: " ${VERSION}
 
 RELEASE_NAME="Blinkinlabs_AVR_${VERSION}"
 
