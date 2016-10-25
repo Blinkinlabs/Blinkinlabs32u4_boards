@@ -1,7 +1,7 @@
 {
    "packages":[
       {
-         "name":"Blinkinlabs",
+         "name":"blinkinlabs",
          "maintainer":"Blinkinlabs",
          "websiteURL":"https://www.blinkinlabs.com",
          "email":"support@blinkinlabs.com",
